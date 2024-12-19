@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detection System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="backgroundCanvas"></canvas>
+    <div class="container">
+        <header>
+            <h1>📰 Fake News Detector</h1>
+            <p>Leverage AI to analyze and identify fake news articles with confidence.</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <textarea id="newsInput" placeholder="Paste or type your news article here..." rows="6"></textarea>
+                <button id="analyzeBtn">Analyze</button>
+            </div>
+
+            <div id="loadingIndicator" class="hidden">
+                <div class="spinner"></div>
+                <p>Analyzing... Please wait.</p>
+            </div>
+
+            <div id="resultSection" class="hidden">
+                <div class="result-card">
+                    <h2>Prediction Result</h2>
+                    <p><strong>Result:</strong> <span id="result"></span></p>
+                    <p><strong>Confidence:</strong> <span id="confidence"></span>%</p>
+                </div>
+                <div class="tips-section">
+                    <h3>💡 Why is this Fake?</h3>
+                    <ul id="explanationList"></ul>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>⚡ Built with AI & NLP | Fake News Detection System</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
