@@ -100,4 +100,4 @@ pip install -r requirements.txt
 
 ## Author
 
-Developed by [Your Name]. Contributions are welcome. Feel free to submit pull requests or issues on GitHub.
+Developed by Ganeshraja R. Contributions are welcome. Feel free to submit pull requests or issues on GitHub.
