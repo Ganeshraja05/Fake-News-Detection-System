@@ -3,6 +3,8 @@
 This project is a machine learning-based system designed to identify fake news articles using natural language processing (NLP). By leveraging datasets of labeled fake and real news, the system trains a classification model to distinguish between genuine and fabricated news articles.
 
 ---
+![EMS](https://github.com/user-attachments/assets/4fae1f95-af8d-4a94-86d0-749e5cef6f72)
+
 
 ## Features
 - **Dataset Merging:** Combines and processes datasets of fake and real news articles with appropriate labels.
